@@ -2,11 +2,11 @@
 name: Commit date to master
 on:
   push:
-    branches: [ main ]
+    branches: [ main2 ]
   pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '*/30 * * * *'
+    branches: [ main2 ]
+#   schedule:
+#     - cron: '*/30 * * * *'
 jobs:
   date:
     runs-on: ubuntu-latest
